@@ -1,0 +1,23 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "title": "TEST 1",
+        "price": 350,
+        "image": "https://picsum.photos/640/640"
+      },
+      {
+        "id": 2,
+        "title": "TEST2",
+        "price": 110,
+        "image": "https://picsum.photos/640/640"
+      },
+      {
+        "id": 3,
+        "title": "TEST3",
+        "price": 122,
+        "image": "./assets/imgTest.png"
+      }    
+    ]
+  }
+  
