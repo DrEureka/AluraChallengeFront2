@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek - Ramadan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <img class="logo" src="./assets/logo.svg" alt="Logo Alura Geek.">
+    </header>
+
+    <main class="main-content">
+
+
+        <div class="product-section">
+            <h1>Productos:</h1>
+            <div id="product-list" class="product-list">
+               <!--Parte Dinamica-->
+            </div>
+        </div>
+
+        <section class="form-container">
+            <h2>Agregar <br> Producto:</h2>
+            <form class="add-product-form">
+                <fieldset class="form-fields">
+                    <input type="text" placeholder="nombre..." name="product-name" required>
+                    <input type="number" placeholder="precio..." name="product-price" required>
+                    <input type="text" placeholder="imagen..." name="product-image" required>
+                </fieldset>
+                <div class="form-buttons">
+                    <button id="btn-save" class="btn-save" type="submit">Guardar</button>
+                    <button id="btn-clear" class="btn-clear" type="button">Limpiar</button>
+                </div>
+            </form>
+
+            <div id="success-message"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <img src="./assets/logo.svg" alt="Logo Alura Geek.">
+        <h2>Desarrollado por Daniel Ramadan.</h2>
+        <h3>Alura 2024 - FRONT</h3>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
